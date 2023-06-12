@@ -1,0 +1,45 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.site{
+display:grid ;
+grid-template-columns: 20% 25% 50%;
+grid-template-areas: 
+"preto preto preto preto"
+"amarelo verde vermelho vermelho"
+"amarelo cinza vermelho vermelho"
+"azul azul azul azul"
+;
+
+}
+.preto{
+    background: black;
+    height: 10vh;
+    grid-area: preto;
+}
+.amarelo{
+    background: yellow;
+    height: 80vh;
+    grid-area: amarelo;
+}
+.verde{
+    background: rgb(1, 68, 1);
+    height: 40vh;
+    grid-area: verde;
+}
+.azul{
+   background: rgb(2, 2, 129);
+   height: 10vh;
+   grid-area:azul;
+}
+.cinza{
+    background: rgb(57, 64, 65);
+    height: 40vh;
+    grid-area: cinza;
+}
+.vermelho{
+    background: rgb(95, 15, 15);
+    height: 80vh;
+    grid-area: vermelho;
+}
